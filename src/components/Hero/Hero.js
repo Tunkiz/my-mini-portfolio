@@ -18,7 +18,7 @@ const Hero = (props) => (
             I want to be a developer at SovTech because i want to learn from the best. I read your company’s mission and vision. After finding out
             more information about your company from social media, I can clearly see how my goals align with the purposes of the
             company. There's nothing I love more than when I am working with other engaged individuals towards a common goal,
-            and that's what excited me about working here.
+            and that's what excited me about working here. hello.... tuinkid
         </SectionText>
       </LeftSection>
     </Section>
