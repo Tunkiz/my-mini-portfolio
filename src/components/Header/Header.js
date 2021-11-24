@@ -15,6 +15,11 @@ const Header = () =>  (
       </Link>
     </Div1>
     <Div2>
+    <li>
+        <Link href="#home">
+          <NavLink>Home</NavLink>
+        </Link>
+      </li>
       <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
