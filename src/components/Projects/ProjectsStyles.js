@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-
 export const Img = styled.img`
   width:100%;
   height:100%;
@@ -52,7 +51,7 @@ export const Hr = styled.hr`
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  background: #d0bb5f;
 `;
 
 export const Intro = styled.div`
@@ -77,15 +76,6 @@ export const CardInfo = styled.p`
     padding:.3rem
   
 }
-`;
-
-
-export const UtilityList = styled.ul`
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
-  margin: 2.5rem 0;
 `;
 
 export const ExternalLinks = styled.a`

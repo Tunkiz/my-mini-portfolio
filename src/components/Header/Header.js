@@ -1,16 +1,16 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { FiAtSign } from 'react-icons/fi';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
 const Header = () =>  (
-  <Container>
+  <Container id='header'>
     <Div1>
       <Link href="/">
         <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
-          <DiCssdeck size="4rem" /> <span>MyPortfolio</span>
+          <FiAtSign size="4rem" /> <span>My-Portfolio</span>
         </a>
       </Link>
     </Div1>
@@ -31,8 +31,8 @@ const Header = () =>  (
         </Link>
       </li>        
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
+        <Link href="#Achievements">
+          <NavLink>Achievements</NavLink>
         </Link>
       </li>        
     </Div2>
@@ -40,7 +40,7 @@ const Header = () =>  (
         <SocialIcons href="https://github.com/Tunkiz">
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://google.com">
+        <SocialIcons href="https://www.linkedin.com/in/tunkis-mabunda">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
         </Div3>
