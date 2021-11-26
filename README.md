@@ -4,7 +4,6 @@ The App is developed using Next.js frame
 The App consist of styled-components and react-icons dependencies.
 <br/>
 ---How to bootstrap the app---
-<br/>
 1. Use 'npm install' in a terminal to install all the dependencies
 2. use 'yarn dev' to open the app in a browser using local host
 <br/>
