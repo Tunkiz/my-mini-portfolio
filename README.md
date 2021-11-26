@@ -1,5 +1,5 @@
 # my-mini-portfolio
-The is developed using Next.js frame
+The App is developed using Next.js frame
 <br/>
 The App consist of styled-components and react-icons dependencies.
 <br/>
